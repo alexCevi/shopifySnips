@@ -1,2 +1,5 @@
 # shopifySnips
-Snippets of code that I find are some times used a lot or hard to remember 
+
+## Images
+	<img src="{{ 'image name with extension ie: name.png' | asset_img_url:'400x400' }}">
+
