@@ -8,12 +8,12 @@ including images
 ```
 {% schema %}
   {
-    "name": "Future Products",
+    "name": "Future ",
     "settings": [
   {
    "type": "text",
-   "id": "about_text",
-   "label": "About soNeat"
+   "id": "this_section_id",
+   "label": "SECTION TITLE"
   },
 	],
 	"presets": [
@@ -21,19 +21,6 @@ including images
         "name": "Future Products",
         "category": "Future Products"
       }
-  ],
-"blocks": [
-    {
-      "type": "text",
-      "name": "products",
-      "settings": [
-        {
-          "type": "text",
-          "id": "product_name",
-          "label": "Product Name"
-        }
-      ]
-    }
   ]
   }
 {% endschema %}
@@ -66,3 +53,19 @@ including images
   }
 }
 ```
+## Blocks
+```
+"blocks": [
+    {
+      "type": "text",
+      "name": "products",
+      "settings": [
+        {
+          "type": "text",
+          "id": "product_name",
+          "label": "Product Name"
+        }
+      ]
+    }
+  ]
+ ```
