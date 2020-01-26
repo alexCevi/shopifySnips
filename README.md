@@ -69,3 +69,9 @@ including images
     }
   ]
  ```
+## can change what is shown on the product template based on if an item is available
+``` 
+  {% if product.available == true/false%}
+  	show something here
+  {% endif%}
+  ```
