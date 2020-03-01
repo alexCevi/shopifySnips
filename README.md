@@ -75,3 +75,21 @@ including images
   	show something here
   {% endif%}
   ```
+  
+  ## slick slider init
+  ```
+  
+    jQuery(document).ready(function(){
+      jQuery('.slick-slider').slick({
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2300,
+        dots: true,
+        mobileFirst: true
+      });
+      
+      AOS.init({
+         once: true
+      });
+    });
+  ```
